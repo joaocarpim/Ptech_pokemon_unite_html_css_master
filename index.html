@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="icon" type="imagem/png" href="/assets/images/favicon.ico" />
+  <script src="/assets/js/index.js"></script>
+  <title>Pokémon Unite</title>
+</head>
+
+<body>
+  <nav class="container menu__container">
+    <input type="checkbox" id="menu__toggle" class="menu__toggle">
+    <div class="menu__logo">
+      <a href="/">
+        <img src="/assets/images/logo.svg" alt="Pokémon Unite" class="logo-top">
+      </a>
+      <label for="menu__toggle" class="icon">
+        <img src="/assets/images/hamburguer.svg" />
+      </label>
+    </div>
+    <ul class="menu">
+      <li class="menu__item menu__item--active">
+        <a href="/" class="menu__link">Página INICIAL</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://www.nintendo.com/pt_BR/games/detail/pokemon-unite-switch/" target="__blank">
+          Nintendo Switch
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"
+          target="__blank">
+          Google Play
+        </a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="https://apps.apple.com/app/id1512321575" target="__blank">
+          App Store
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main class="container">
+    <h1>Pokémon Unite - Pokédex</h1>
+    <h2>Confira a lista completa de Pokémons do jogo Pokemón Unite e suas habilidades, evoluções e muito mais!</h2>
+    <div class="search__container">
+      <input class="search__field" placeholder="Pesquisar Pokémon" id="search__field" onkeyup="searchPokemon()" type="text"
+      name="search pokemon"/>
+    </div>
+    <div class="card__container">
+
+    </div>
+  </main>
+  <footer class="footer">
+    <a href="/" class="logo-footer">
+      <img src="/assets/images/logo.svg" alt="Pokémon Unite" class="footer__image">
+    </a>
+    <a class="footer__button button__link" href="https://unite.pokemon.com/pt-br/" target="__blank">Jogue Pokémon Unite agora!</a>
+    <div class="footer__links">
+      <a class="footer__link" href="https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"
+        target="__blank">
+        Google Play
+      </a>
+      <a class="footer__link" href="https://www.nintendo.com/pt_BR/games/detail/pokemon-unite-switch/" target="__blank">
+        Nintendo Switch
+      </a>
+      <a class="footer__link" href="https://apps.apple.com/app/id1512321575" target="__blank">
+        App Store
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
