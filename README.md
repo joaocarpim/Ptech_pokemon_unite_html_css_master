@@ -4,7 +4,7 @@ Bem-vindo à Pokédex do jogo Pokémon Unite! Este projeto foi desenvolvido para
 
 ## Visão Geral
 
- [Vizualizar](https://pokedex-zeta-six-10.vercel.app/)
+ [Vizualizar](https://pokedex-beta-olive.vercel.app/)
 <details>
   <summary>📸</summary>
   
